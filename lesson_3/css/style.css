@@ -1,0 +1,21 @@
+@import url("reset.css");
+
+
+.header{
+    color: violet;
+}
+.one{
+    color: red;
+}
+.two{
+    color: green;
+}
+.three{
+    color: blue;
+}
+.four{
+    color: orange;
+}
+.link{
+    color: rebeccapurple;
+}
