@@ -1,0 +1,41 @@
+@import url("reset.css");
+
+
+h1{
+    color: violet;
+}
+.header h3{
+    color: #FCE22A;
+}
+.head *{
+    color: #13005A;
+}
+[class*="__two"]{
+    color: #7B2869;
+}
+.one,
+.three{
+    color: blue;
+}
+.four > p{
+    color: #820000;
+}
+#link{
+    color: #FF0032;
+}
+.text .para{
+    color: #FFEA20;
+}
+.para ~ p{
+    color: #0081B4;
+}
+.name{
+    color: #DC0000;
+}
+div.footer
+{
+    color: #39B5E0;
+}
+.text + p{
+    color: #FC7300 ;
+}
