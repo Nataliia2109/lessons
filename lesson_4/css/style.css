@@ -1,0 +1,104 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Babylonica:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Itim:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Mada:500&display=swap);
+
+
+@font-face {
+    font-family: 'Amatic';
+    src: url('../fonts/Amatic-Bold.woff2') format('woff2'),
+        url('../fonts/Amatic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FLOWER BETTER';
+    src: url('../fonts/FLOWERBETTERRegular.woff2') format('woff2'),
+        url('../fonts/FLOWERBETTERRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Birthday';
+    src: url('../fonts/BirthdayRegular.woff2') format('woff2'),
+        url('../fonts/BirthdayRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+h1{
+    font-family: Solitreo;
+    font-size: 45px;
+    text-align: center;
+    color: #7d105e;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #d76bba;
+    word-spacing: 20px;
+}
+
+.main{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.one{
+    font-family: Aboreto;
+    color: #241821;
+}
+.two{
+font-family: Paprika;
+color: #700e58;
+
+}
+.three{
+    font-family: "Amatic";
+}
+.four{
+    font-family: Babylonica;
+    color: #ca38a6;
+    
+}
+.five{
+    font-family: 'Barlow', sans-serif;
+}
+.six{
+    font-family: Itim;
+    color: #8f2047;
+}
+.seven{
+    font-family: mada;
+    color: #233270;
+}
+.ten{
+    font-family: "FLOWER BETTER";
+}
+.eight{
+font-family: 'Birthday';
+}
+.nine{
+    font-family: 'Solitreo', cursive;
+}
+p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+line-height: 1.5;
+text-indent: 20px;
+color: #50b840;
+}
+a{
+    font-size: 25px;
+    font-family: Paprika;
+    color: #f24429;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
