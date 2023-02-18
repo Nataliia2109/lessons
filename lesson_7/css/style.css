@@ -1,0 +1,145 @@
+
+@import url("reset.css");
+
+.baner{
+	background: url("../img/unsplash_WgMDQsn36w4.png") 0 0 / cover, #212529 ;
+	height: 600px;
+	border-radius: 0px 5px 5px 0px;
+	margin-bottom: 50px;
+}
+.baner__conteiner{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.baner__content{
+	color: #F8F9FA;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.6;
+	padding-top: 330px;
+	padding-left: 20px;
+    
+}
+.baner__content__title{
+	font-size: 25px;
+	font-weight: 700;
+	max-width: 605px;
+	margin-bottom: 15px;
+}
+.baner__content__data{
+	margin-bottom: 15px;
+}
+.fixed{
+	height: 600px;
+	background: url(../img/unsplash_I__QKQLMIKs.png) center / cover fixed;
+}
+main{
+    background:  linear-gradient(204deg, rgba(250,5,10,0.499124649859944) 12%, rgba(211,154,48,0.5019257703081232) 12%, rgba(250,164,4,0.4963235294117647) 23%, rgba(231,243,56,0.5019257703081232) 23%, rgba(231,243,56,0.5019257703081232) 36%, rgba(17,249,4,0.5019257703081232) 36%, rgba(17,249,4,0.499124649859944) 48%, rgba(103,173,235,0.510329131652661) 48%, rgba(103,173,235,0.499124649859944) 62%, rgba(8,4,246,0.4963235294117647) 62%, rgba(74,78,242,0.4963235294117647) 78%, rgba(135,3,236,0.4963235294117647) 78%);
+}
+.content__list{
+	font-family: 'Inter', sans-serif;
+	margin-left: 135px;
+	padding: 40px 0;
+}
+.list{
+	margin-bottom: 60px;
+	font-size: 16px;
+	color: #637381;
+	font-weight: 700;
+	line-height: 1.7;
+	
+}
+.fixed__one {
+	height: 500px;
+	background: url(../img/unsplash_yx5Apt60SXU.png) center / cover fixed;
+}
+.content__list__title{
+	font-size: 26px;
+	color: #212B36;
+	font-weight: 400;
+	margin-bottom: 45px;
+	
+}
+.list__block__one li{
+	background: url(../img/Ellipse\ 2744.png) 0  10px no-repeat;
+	padding-left: 20px;
+	min-height: 30px;
+}
+.list__block__two li{
+	background: url(../img/checkmark-circle\ \(2\)\ 1\ \(1\).png) 0 10px no-repeat;
+    padding-left: 25px;
+	min-height: 30px;
+	padding-top: 7px;
+}
+.list__block__three li{
+    background: url(../img/checkmark-circle\ \(2\)\ 1.png) 0 10px no-repeat;
+    padding-left: 25px;
+	min-height: 30px;
+	padding-top: 7px;
+}
+.list__block__four li{
+    background: url(../img/cross-circle\ \(1\)\ 1.png) 0 10px no-repeat;
+    padding-left: 25px;
+	min-height: 30px;
+	padding-top: 7px;
+}
+.list__block__five li{
+    background: url(../img/arrow-right\ \(7\)\ 1.png) 0 10px no-repeat;
+    padding-left: 25px;
+	min-height: 30px;
+	padding-top: 7px;
+}
+.list__block__six li{
+    background: url(../img/star\ \(1\)\ 1.png) 0 10px no-repeat;
+    padding-left: 25px;
+	min-height: 30px;
+	padding-top: 7px;
+}
+.sound__content{
+background: url(../img/speaker\ 1.png) 75% 50% /272px 396px no-repeat, linear-gradient(115deg, rgba(244, 247, 255, 0) 63%, rgba(48, 86, 211, 0.08) 60%, rgba(244, 247, 255, 0) 100%), linear-gradient(115deg, rgba(244, 247, 255, 0) 68%, rgba(48, 86, 211, 0.08) 60%, rgba(244, 247, 255, 0) 100%) #f4f7ff;
+min-height: 560px;
+}
+
+.sound__content__container {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.sound__content__text {
+	max-width: 570px;
+	padding-top: 145px;
+}
+.sound__content__price {
+	font-size: 18px;
+	font-weight: 600;
+	color: #3056D3;
+	line-height: 1.3;
+	font-family:'Inter', sans-serif ;
+	margin-bottom: 13px;
+
+}
+.sound__content__title {
+	font-size: 36px;
+	font-family:'Inter', sans-serif ;
+    font-weight: 700;
+	line-height: 1.3;
+	color: #212B36;
+	margin-bottom: 15px;
+}
+.sound__content__content {
+	font-size: 16px;
+	font-weight: 500;
+	color: #637381;
+	line-height: 1.5;
+	font-family:'Inter', sans-serif;
+	margin-bottom: 35px;
+}
+a{
+	background-color: #3056D3;
+	padding: 10px 30px;
+	color: white;
+	border-radius: 30px;
+	font-family:'Inter', sans-serif ;
+}
