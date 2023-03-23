@@ -1,0 +1,266 @@
+@import url("reset.css");
+@import url("common.css");
+
+body {
+	font-family:'Inter', sans-serif;
+	background-color: #DBE4C6;
+	font-size: 25px;
+}
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+}
+h1{
+	padding: 20px;
+	font-size: 45px;
+	text-align: center;
+}
+h2{
+	padding: 25px;
+	font-size: 35px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.content__container{
+max-width: 1100px;
+padding: 30px 15px;
+margin: 0 auto;
+}
+.content__wrapper,
+.content__wrapper3D{
+display: inline-block;
+}
+.content__3D .content__wrapper3D{
+
+}
+.content__translate:hover {
+	transform: translate(50px, -15px);
+	transition: 0.8s all ease;
+	background-color: #ff00fb;
+	box-shadow: 3px 3px 3px #61f12cc3;
+}
+.block{
+    width: 150px;
+	height: 150px;
+    box-shadow: 3px 3px 3px #242423c3;
+	background-color: #4d50ee;
+    margin: 25px;
+	text-align: center;
+	padding-top: 50px;
+	color: #fff;
+}
+
+.content__scale:hover{
+	transform: scale(2, -1);
+	transition: 0.8s all ease;
+	background-color: #ff00fb;
+	box-shadow: 3px 3px 3px #61f12cc3;
+}
+
+.content__rotate:hover{
+	transform: rotate(45deg);
+	transition: 0.8s all ease;
+	background-color: #ff00fb;
+	box-shadow: 3px 3px 3px #61f12cc3;
+}
+
+.content__skew:hover{
+	transform: skew(-65deg, 15deg);
+	transition: 0.8s all ease;
+	background-color: #ff00fb;
+	box-shadow: 3px 3px 3px #61f12cc3;
+}
+.content__multi:hover {
+	transition: 0.8s all ease;
+	transform: translate(50px, 50px) rotate(45deg) scale(2);
+	background-color: #ff00fb;
+	box-shadow: 3px 3px 3px #61f12cc3;
+}
+.content__origin {
+	transform-origin: -45px 50px;
+	
+}
+.content__origin:hover {
+	transform: scale(2);
+	transition: 0.8s all ease;
+	background-color: #ff00fb;
+	box-shadow: 3px 3px 3px #61f12cc3;
+}
+.content__3D .content__wrapper3D {
+	perspective: 80px;
+	perspective-origin: right;
+}
+
+
+.content__translate3D:hover {
+transform: translate3d(20px,-30px,20px);
+transition: 0.8s all ease;
+background-color: #16FF00;
+box-shadow: 3px 3px 3px #eb2828c3;
+}
+
+
+.content__scale3D:hover {
+	transform: scale3d(2, 2, 3);
+	transition: 0.8s all ease;
+	background-color: #16FF00;
+box-shadow: 3px 3px 3px #eb2828c3;
+
+}
+.content__rotate3D:hover {
+	transform: rotate3d(1, 2, 1, 180deg);
+	transition: 0.8s all ease;
+	background-color: #16FF00;
+box-shadow: 3px 3px 3px #eb2828c3;
+}
+
+.flip__body {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	transition: all 0.8s ease;
+	transform-style: preserve-3d;
+	perspective: 500px;
+	
+}
+.flip__front, 
+.flip__back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backface-visibility: hidden;
+	background-color: #ff00fb;
+}
+
+
+.flip__front {
+	z-index: 2;
+	transform: rotateY(0deg);
+	
+}
+.flip__back {
+	transform: rotateY(-180deg);
+	background-color: rgba(121, 79, 69, 0.5);
+}
+.flip__body:hover {
+	transform: rotateY(-180deg);
+}
+
+
+
+
+
+.car {
+	background-color: aqua;
+}
+.car__container {
+	max-width: 1100px;
+padding: 80px 15px;
+margin: 0 auto;
+}
+.car__list {
+	
+}
+.car__item1 {
+	width: 900px;
+	height: 350px;
+	border-radius: 50px 60px 0px 3px;
+	background-color: #e1ff00;
+	margin-left: 200px;
+	border: 7px solid black;
+	
+}
+.car__item2 {
+	width: 240px;
+	height: 190px;
+	position: relative;
+	left: -34px;
+	bottom: 190px;
+	background-color: #e1ff00;
+	border: 7px solid black;
+	border-radius: 50px 5px 0px 2px;
+	
+}
+.car__item3 {
+	width: 150px;
+	height: 300px;
+	position: relative;
+	background-color: rgba(58, 174, 247, 0.892);
+	bottom: 490px;
+	left: 260px;
+	
+	border: 7px solid black;
+}
+.car__item4 {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	background-color: rgba(119, 204, 255, 0.8);
+	bottom: 790px;
+	left: 450px;
+	border-radius: 30px 5px 5px 5px;
+	border: 7px solid black;
+	}
+.car__item5{
+width: 150px;
+	height: 150px;
+	position: relative;
+	background-color: rgba(119, 204, 255, 0.8);
+	bottom: 940px;
+	left: 650px;
+	border-radius: 5px 5px 5px 5px;
+	border: 7px solid black;
+}	
+.car__item6 {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	background-color: rgba(119, 204, 255, 0.8);
+	bottom: 1090px;
+	left: 850px;
+	border-radius: 5px 30px 5px 5px;
+	border: 7px solid black;
+}
+.car__item7{
+	width: 3px;
+	height: 300px;
+	position: relative;
+	background-color: black;
+	top: -1240px;
+	left: 330px;
+}
+.car__item8 {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	background-color: grey;
+	border: 15px dashed black;
+	top: -1310px;
+	border-radius: 50%;
+    left: 30px;
+	
+}
+.car__item8:hover{
+    transform: rotate(360deg);
+	transition: 3s all ease;
+}
+.car__item9 {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	background-color: grey;
+	border: 15px dashed black;
+	top: -1490px;
+	border-radius: 50%;
+    left: 830px;
+}
+.car__item9:hover{
+    transform: rotate(360deg);
+	transition: 3s all ease;
+}
