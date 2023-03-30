@@ -1,0 +1,158 @@
+@import url("reset.css");
+@import url("common.css");
+
+body {
+	font-family: 'Poppins', sans-serif;
+	
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+[class*="__container"]{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding:  100px 15px 0px;
+}
+.content {
+	
+}
+.content__categories {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 500;
+	font-size: 12px;
+	color: #495057;
+	margin-bottom: 30px;
+}
+.categories {
+}
+.categories__item:hover {
+	text-decoration: underline;
+}
+.categories__column {
+	display: flex;
+	gap: 20px;
+}
+.column {
+}
+.column__one:hover {
+	text-decoration: underline;
+}
+.column__two {
+	color:  #49505780;
+}
+.column__two:hover {
+	color: #495057;
+	text-decoration: underline;
+}
+
+.content__card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0px -15px;
+	
+
+	}
+.card{
+	margin-bottom: 60px;
+}
+.card__content{
+	flex: 0 0 33.333%;
+	padding: 20px 15px;
+
+}
+
+.card__image {
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.image img {
+	position: relative;
+	max-width: 100%;
+	transition: all 0.5s ease;
+}
+.image:hover img{
+	transform: scale(1.1);
+}
+.creative{
+	text-transform: uppercase;
+	color: #F8F9FA;
+	background: rgba(33, 37, 41, 0.3);
+	border-radius: 3px;
+	padding: 3px 12px ;
+	font-size: 8px;
+	font-weight: 700;
+	line-height: 2.5;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	
+}
+.card__text {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+	align-items: flex-start;
+	
+}
+.text {
+}
+.text__data,
+.text__description,
+.text__autor{
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.7;
+	color: #495057;
+}
+.text__title {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.6;
+	color:#212529;
+	transition: all 0.3s ease;
+}
+.text__title:hover{
+	color:  #CCD5AE;
+}
+.text__description {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #E5E5E5;
+	
+}
+.text__autor {
+}
+.content__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.button {
+}
+.button__item {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 2.1;
+	color: #F8F9FA;
+	background-color:  #212529;
+border-radius: 3px;
+padding: 8px 50px;
+}
+.button__item:hover {
+color: #212529;
+background-color: #F8F9FA;
+border: 1px solid #212529;
+}
+
+
+
