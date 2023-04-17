@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Oswald:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Lesson 16</title>
+  </head>
+  <body>
+    <!-- FLEX-container -->
+    <div class="wrapper">
+      <header></header>
+      <main class="page">
+        <div class="page__container">
+          <div class="page__header">
+            <h1 class="page__title">Checkout</h1>
+            <p class="page__subtitle">There are 3 products in your cart</p>
+          </div>
+          <div class="page__billing billing-form">
+            <div class="billing-form__title">Billing Details</div>
+            <div class="billing-form__form">
+              <form
+                class="form-billing"
+                action="#"
+                method="get"
+                enctype="multipart/form-data"
+              >
+                <div class="form-billing__items">
+                  <div class="form-billing__item">
+                    <input type="text" placeholder="First name*" required />
+                  </div>
+                  <div class="form-billing__item">
+                    <input type="text" placeholder="Last name*" required />
+                  </div>
+                  <div class="form-billing__item">
+                    <input type="text" placeholder="Address*" required />
+                  </div>
+                  <div class="form-billing__item">
+                    <input type="text" placeholder="Address line 2" required />
+                  </div>
+                  <div class="form-billing__item">
+                    <input type="text" placeholder="Country*" required />
+                  </div>
+                  <div class="form-billing__item">
+                    <input type="text" placeholder="City/Town*" required />
+                  </div>
+                  <div class="form-billing__item">
+                    <input type="text" placeholder="Postcode / ZIP*" required />
+                  </div>
+                  <div class="form-billing__item">
+                    <input type="text" placeholder="Phone*" required />
+                  </div>
+                  <div class="form-billing__item">
+                    <input type="text" placeholder="Postcode / ZIP*" required />
+                  </div>
+                  <div class="form-billing__item">
+                    <input type="text" placeholder="Phone*" required />
+                  </div>
+                  <div class="form-billing__textarea">
+					<textarea name="information" placeholder="Additional information"></textarea>
+				  </div>
+                </div>
+				<div class="form-billing__checkbox checkbox">
+					<div class="checkbox__item">
+						<input type="checkbox" name="check1" id="check1" class="checkbox__input">
+						<label for="check1" class="checkbox__label">Create Account</label>
+					</div>
+					<div class="checkbox__item">
+						<input type="checkbox" name="check2" id="check2" class="checkbox__input">
+						<label for="check2" class="checkbox__label">Ship to a different address?</label>
+					</div>
+
+				</div>
+				<div class="form-billing__coupon coupon">
+					<div class="coupon__title">
+						Apply Coupon to get discount!
+					</div>
+					<div class="coupon__input">	
+						<input class="coupon__code" type="text" placeholder="Coupon code">
+						<button class="coupon__btn" type="submit">Apply Code</button>
+					</div>
+				</div>
+              </form>
+            </div>
+          </div>
+		  <div class="page__shipping shipping-form">
+			<div class="shipping-form__title">
+				Shipping Address
+			</div>
+			<form class="shipping-form__form form-shipping"
+                action="#"
+                method="get"
+                enctype="multipart/form-data">
+			<div class="form-shipping__wrapper">
+				<div class="form-shipping__items ">
+					<label class="form-shipping__label" for="email1">Email Address *</label>
+					<input class="form-shipping__input" type="email" required name="email" id="email1" placeholder="roni_cost@example.com">
+				</div>
+				<div class="form-shipping__items ">
+					<label class="form-shipping__label" for="password">Password</label>
+					<input class="form-shipping__input" type="password" required name="password" id="password" placeholder="******************">
+				</div>
+				<div class="form-shipping__items ">
+					<label class="form-shipping__label" for="zip">Zip/Postal Code</label>
+					<input class="form-shipping__input" type="text" required name="zip" id="zip">
+				</div>
+				<div class="form-shipping__text">
+					You already have an account with us. Sign in or continue as guest.
+				</div>
+				<div class="form-shipping__login">
+					<button class="button-login">login</button>
+					<a class="forgot-login" href="">Forgot Your Password?</a>
+				</div>
+				<div class="form-shipping__line"></div>
+				<div class="form-shipping__items ">
+					<label class="form-shipping__label" for="first-name">First Name *</label>
+					<input class="form-shipping__input" type="text" required name="first-name" id="first-name">
+				</div>
+				<div class="form-shipping__items ">
+					<label class="form-shipping__label" for="last-name">Last Name *</label>
+					<input class="form-shipping__input" type="text" required name="last-name" id="last-name">
+				</div>
+				<div class="form-shipping__items ">
+					<label class="form-shipping__label" for="company">Company</label>
+					<input class="form-shipping__input" type="text" required name="company" id="company">
+				</div>
+				<div class="form-shipping__items ">
+					<label class="form-shipping__label" for="address1">Street Address *</label>
+					<input class="form-shipping__input" type="text" required name="address1" id="address1">
+				</div>
+				<div class="form-shipping__items ">
+					<input class="form-shipping__input" type="text"  name="address2" id="address2">
+				</div>
+				<div class="form-shipping__items ">
+					<input class="form-shipping__input" type="text"  name="address3" id="address3">
+				</div>
+				<div class="form-shipping__items ">
+					<label class="form-shipping__label" for="address4">Country  *</label>
+					<input class="form-shipping__input" type="text" required name="address4" id="address4">
+				</div>
+				<div class="form-shipping__items ">
+					<label class="form-shipping__label" for="state">State/Province   *</label>
+					<select class="form-shipping__select" name="state" id="state">
+						<option value="1">Please select a region, state or province</option>
+						<option value="2">Lviv</option>
+						<option value="4">Kyiv</option>
+						<option value="3">Odesa</option>
+					</select>
+				</div>
+			</div>
+			</form>
+			<div class="shipping-form__title">
+			Shipping Methods
+			</div>
+			<div class="shipping-form__line"></div>
+			<form class="shipping-form__methods form-methods" action="#" method="get"
+                enctype="multipart/form-data">
+				<div class="form-methods__wrapper">
+					<div class="form-methods__items">
+						<div class="form-methods__radio">
+							<input type="radio" checked required class="form-methods__input" name="methods" id="radio01">
+							<label for="radio01" class="form-methods__label">$5.00</label>
+						</div>
+						<div class="form-methods__item">Fixed</div>
+						<div class="form-methods__item">Flat Rate</div>
+					</div>
+					<div class="form-methods__line"></div>
+					<div class="form-methods__items">
+						<div class="form-methods__radio">
+							<input type="radio" required  class="form-methods__input" name="methods" id="radio02">
+							<label for="radio02" class="form-methods__label">$10.00</label>
+						</div>
+						<div class="form-methods__item">Table Rate</div>
+						<div class="form-methods__item">Best Way</div>
+					</div>
+				</div>
+			</form>
+			<div class="shipping-form__btn">
+				<button class="btn-next">next</button>
+				<button class="btn-back">Back</button>
+			</div>
+		  </div>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
